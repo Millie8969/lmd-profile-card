@@ -109,13 +109,13 @@ button.profile-card-example-button svg:nth-of-type(2) {
   padding: 5rem 0 3rem;
   text-align: center;
   background: rgb(255,255,255);
-  font-family: Arial;
 
   dt {
     margin-top: .25rem;
     padding-top: .25rem;
     border-top: 1px solid rgba(0,0,0,0.3);
     font-weight: bold;
+    font-family: Arial;
     &:nth-of-type(1) {
       grid-area: html-dt;
     }
