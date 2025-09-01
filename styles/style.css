@@ -29,6 +29,10 @@ article.profile-card-example {
   background: linear-gradient(0deg, #d4c600 50%, #6e009d 100%);
   box-shadow: 0 0 20px 20px rgba(0,0,0,.1);
   transition: .25s;
+
+  p {
+    font-family: Arial;
+  }
 }
 
 header.profile-card-example-header {
