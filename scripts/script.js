@@ -1,9 +1,13 @@
-/* Stap 1: Selecteer de knop */
-let expandButton = document.querySelector('.profile-card-example-button')
+document.addEventListener("DOMContentLoaded", () => {
+const target = document.querySelector('.profileCardWrapper');
+      const sound = document.getElementById('larry'); 
 
-/* Stap 2: Wacht tot iemand op die knop klikt */
-expandButton?.addEventListener('click', function() {
+      target.addEventListener('mouseenter', () => {
+        sound.play();
+      });
 
-  /* Stap 3: Verander een class zodra iemand op die knop klikt */
-  document.body.classList.toggle('is-expanded')
-})
+      target.addEventListener('mouseleave', () => {
+        sound.pause();
+        sound.currentTime = 0;
+      });
+    });
